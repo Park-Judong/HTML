@@ -1,0 +1,56 @@
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 title="this is a tooltip." style="font-size:60px; background-color: darkkhaki; text-align: center;">this is exercises for learning HTML</h1>
+    <hr>
+    <h3 style="font-style: italic; color: olive; font-family: cursive; text-align: center;">learning HTML</h3>
+    <h4 style="text-align: center; font-size: 200%; border:2px solid Tomato; text-align: center;"><b>learning HTML</b></h4>
+    <h5><ins>aa</ins></h5>
+    <h6><sub>aaaa</sub>  <del>aaaa</del> <sup>asdasda</sup></h6>
+    <p><em>canada</em>  canada</p>
+    <p><strong>australia</strong></p>
+    <h1>i want a box of <mark>milk</mark></h1>
+    <hr>
+    <!-- my wish -->
+    <a href="https://www.naver.com">naver</a>
+    <img src="https://ssl.pstatic.net/melona/libs/1473/1473263/68d7621f2c4a0f86efbc_20231127155756152.jpg" alt="naver.com" width="830" height="130">
+    <hr>
+    <p>I should put some content on it.</p>
+    <hr>
+    <p>Here is a quote from australia's website:</p>
+
+        <blockquote cite="http://www.naver.com">
+        we need more <q>engineers and programmers</q> in australia.
+        </blockquote>
+    <hr>
+    <p>
+        This paragraph
+        contains         a lot of spaces
+        in the source         code,
+        but the        browser
+        ignores it.
+    </p>
+
+    <p>
+        This paragraph
+        contains         a lot of spaces <br>
+        in the source         code,
+        but the        browser  <br>
+        ignores it.
+    </p>
+
+    <pre>
+        My Bonnie lies over the ocean.
+      
+        My Bonnie lies over the sea.
+      
+        My Bonnie lies over the ocean.
+      
+        Oh, bring back my Bonnie to me.
+    </pre>
+</body>
+</html>
