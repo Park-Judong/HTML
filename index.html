@@ -14,7 +14,7 @@
             height: 268px;
             background-color: yellow;
         }
-        #header-logo, #header-search, #header-home {
+        #header-logo, #header-search_group, #header-home {
             display: inline-block;
         }
         #header-logo{
@@ -27,12 +27,53 @@
             width: 32px;
             height: 100%;
         }
-        #header-search{
+        #header-search_group{
             display: flex;
             width: 706;
             height: 100%;
             flex: 1;
             align-items: center;
+        }
+        #header-logo a{
+
+        }
+        #header-logo a::before{
+            content:'';
+            background-image: url(./sp_main.png);
+            width: 26px;
+            height: 26px;
+            display: inline-block;
+            background-position: -333px -81px;
+        }
+        #header-naverpay a{
+        }
+        #header-naverpay a::before{
+            content:'';
+            background-image: url(./sp_main.png);
+            width: 32px;
+            height: 32px;
+            display: inline-block;
+            background-position: -295px -177px;
+        
+        }
+        #search_logo a{
+        }
+        #search_logo a::before{
+            content:'';
+            background-image: url(./sp_main.png);
+            width: 29px;
+            height: 30px;
+            display: inline-block;
+            background-position: -794px -559px;
+        
+        }
+        .blind{
+            position: absolute;
+            clip: rect(0 0 0 0);
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            overflow: hidden;
         }
         #header-home{
             display: flex;
@@ -46,16 +87,26 @@
         <div id="header-center">
             <div id="header-logo">
                 <div>
-                    로고
+                    <a href="#">
+                        <span class="blind">헤더 로고</span>
+                    </a>
                     
                 </div>
             </div>
             <div id="header-naverpay">
                 <div>
-                    네이버페이
+                    <a href="#">
+                        <span class="blind">네이버 페이</span>
+                    </a>
                 </div>
             </div> 
-            <div id="header-search">
+            <div id="header-search_group">
+                <div id="search_logo">
+                    <a href="#">
+                    <span class="blind">네이버 로고</span>
+                    </a>
+                
+                </div>
                 <div>
                     검색창
                 </div>
